@@ -82,7 +82,7 @@ def DAO_YIP_2(unit):
     #######################################################
     # New minting fee receiver for uXTZ engines constants #
     #######################################################
-    new_uxtz_xtz_pool = sp.address('') # Address of the new uXTZ/XTZ constant function market maker.
+    new_uxtz_xtz_pool = sp.address('KT1FPkNVZESuoLbKxgvhtqb6uyZ3fY5oG5VJ') # Address of the new uXTZ/XTZ constant function market maker.
 
     # DAO LAMBDA
     sp.result(sp.list([
