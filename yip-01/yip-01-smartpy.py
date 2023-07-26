@@ -31,7 +31,7 @@ def execute_set_contracts_engine_v3(
 
     return sp.transfer_operation(payload, sp.mutez(0), engine_contract)
 
-def DAO_YIP_2(unit):
+def DAO_YIP_01(unit):
     sp.set_type(unit, sp.TUnit)
 
     ###############################################################################
@@ -82,7 +82,7 @@ def DAO_YIP_2(unit):
     #######################################################
     # New minting fee receiver for uXTZ engines constants #
     #######################################################
-    new_uxtz_xtz_pool = sp.address('KT1FPkNVZESuoLbKxgvhtqb6uyZ3fY5oG5VJ') # Address of the new uXTZ/XTZ constant function market maker.
+    new_uxtz_xtz_pool = sp.address('KT1BFXgczFte2zftCTg7tL6Qk2capsFg6UFS') # Address of the new uXTZ/XTZ constant function market maker.
 
     # DAO LAMBDA
     sp.result(sp.list([
