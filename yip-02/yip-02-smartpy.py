@@ -17,7 +17,7 @@ def set_uxau_token_metadata(unit):
                 sp.address("KT1XRPEPXbZK25r3Htzp2o1x7xdMMmfocKNW"),
                 sp.nat(4),
                 sp.map(
-                    l={ "" : sp.bytes("0x697066733a2f2f516d5876514d616e31413844796f714665545a486a796a704e4d71766f374a566b585547463144413474506b3833")},
+                    l={ "" : sp.bytes("0x697066733a2f2f516d553972507434354b51466d35315a46467a65727a6231586645726f7a6d31734d4678443478705851394e526e")},
                     tkey=sp.TString,
                     tvalue = sp.TBytes
                 )
