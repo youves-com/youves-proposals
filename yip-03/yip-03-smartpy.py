@@ -38,6 +38,7 @@ def execute_set_contracts_engine_v3(
     )
 
     return sp.transfer_operation(payload, sp.mutez(0), engine_contract)
+
 def DAO_YIP_3(unit):
     sp.set_type(unit, sp.TUnit)
 
