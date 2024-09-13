@@ -52,7 +52,7 @@ def update_target_flat_curve_oracles(unit):
             addresses.UUSD_UBTC_EXCHANGE,
             sp.address("KT1Cy1wwHbW1NMawnQCrfXMBtuwXSsidEDg2")
         ),
-                execute_set_reward_recipient(
+        execute_set_reward_recipient(
             sp.address("KT1CkpDuwCFrnoqTam6upYiPBiFNsSEVbBei"), 
             sp.address("KT1FPmpucXoiX7ZLahj1V1E5tRah1XvcnkZB")),
         execute_set_reward_recipient(
