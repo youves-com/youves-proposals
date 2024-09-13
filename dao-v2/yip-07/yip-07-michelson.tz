@@ -1,0 +1,1 @@
+{ DROP; NIL operation; PUSH address "KT1STLQKxiRtAh1e7DZhu1xUTAJ7KLpV9Rru"; CONTRACT %setTargetOracle address; IF_NONE { PUSH string "Invalid entrypoint: setTargetOracle"; FAILWITH } {}; PUSH mutez 0; PUSH address "KT1Cy1wwHbW1NMawnQCrfXMBtuwXSsidEDg2"; TRANSFER_TOKENS; CONS }
