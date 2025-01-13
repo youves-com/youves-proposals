@@ -1,5 +1,4 @@
 import smartpy as sp
-import utils.addresses as addresses
 
 def yip7(unit):
     sp.set_type(unit, sp.TUnit)
