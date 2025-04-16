@@ -1,5 +1,6 @@
 import smartpy as sp
 
+
 def DAO_V2_YIP_9(unit):
     sp.result(
         sp.list(
@@ -29,13 +30,13 @@ def DAO_V2_YIP_9(unit):
                 # cpmm
                 # set reward recipient (cpmm)
                 execute_set_new_reward_recipient(
-                    sp.address("KT1FksNeQGYepYoWoZRkazyufsecpv8yFRZ8"),
+                    sp.address("KT1WyBYQrHkxLomKYRTDby1bxNYNXBxMjApp"),
                     sp.address("KT1FPmpucXoiX7ZLahj1V1E5tRah1XvcnkZB"),
                 ),
                 # cpmm
                 # set DAO as admin
                 execute_accept_admin_proposal_cash_cpmm(
-                    sp.address("KT1FksNeQGYepYoWoZRkazyufsecpv8yFRZ8"),
+                    sp.address("KT1WyBYQrHkxLomKYRTDby1bxNYNXBxMjApp"),
                 ),
                 # token
                 # remove deployer
