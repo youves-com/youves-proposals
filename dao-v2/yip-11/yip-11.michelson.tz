@@ -1,0 +1,1 @@
+{ DROP; NIL operation; PUSH address "KT198mB5VXfeftAXbo3dqkEMjR3oWShEoazY"; CONTRACT %set_script (pair string string); IF_NONE { PUSH int 4; FAILWITH } {}; PUSH mutez 0; PUSH (pair string string) (Pair "ipfs://QmR6toZqSUnqDxkRiNp2oeBUmHJRQD44PtmmCrcaeB15pX" "1ba832f211d43c1b49dc61cf734ab89f1d08a1f101914b9302de9152f255457f"); TRANSFER_TOKENS; CONS }
